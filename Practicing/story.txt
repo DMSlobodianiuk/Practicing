@@ -1,0 +1,6 @@
+16.10.2025
+Project was created to help me improve my c++ practice knowledge
+Was created GitHub repo and base for whole project
+
+
+
