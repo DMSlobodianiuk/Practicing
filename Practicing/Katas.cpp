@@ -87,7 +87,6 @@ int string_to_number(const std::string& s)
 
 bool amIWilson(unsigned n)
 {
-two_decimal_places
 	if (n == 5 or n == 13 or n == 563)
 		return true;
 	else
@@ -99,3 +98,13 @@ double twoDecimalPlaces(double n)
 	return round(n*100.0)/100.0;
 }
 
+std::vector<int> divisible_by(std::vector<int> numbers, int divisor)
+{
+	std::vector<int> res;
+
+	for (auto it = numbers.begin(); it != numbers.end(); ++it)
+		if (*it % divisor == 0)
+			res.push_back(*it);
+
+	return res;
+}
