@@ -14,4 +14,6 @@ std::vector<int> countPositivesSumNegatives(std::vector<int> input);
 
 int string_to_number(const std::string& s);
 
+bool amIWilson(unsigned n);
+
 double twoDecimalPlaces(double n);
