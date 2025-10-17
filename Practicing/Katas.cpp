@@ -53,3 +53,28 @@ std::vector<int> squareOrSquareRoot(const std::vector<int>& array)
 
 	return res;
 }
+
+std::vector<int> countPositivesSumNegatives(std::vector<int> input)
+{
+	std::vector<int> res;
+
+	if (input.size() == 0)
+		return res;
+
+	int sum = 0;
+	int count = 0;
+
+	for (auto it = input.begin(); it != input.end(); ++it)
+	{
+		if (*it > 0)
+			count += 1;
+		else
+			sum += *it;
+	}
+
+	std::cout << "count: " << count << "\nsum: " << sum << std::endl;
+	res.push_back(count);
+	res.push_back(sum);
+
+	return res;
+}
