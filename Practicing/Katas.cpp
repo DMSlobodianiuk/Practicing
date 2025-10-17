@@ -85,3 +85,15 @@ int string_to_number(const std::string& s)
 	return std::stoi(s);
 }
 
+bool amIWilson(unsigned n)
+{
+	if (n == 5 or n == 13 or n == 563)
+		return true;
+	else
+		return false;
+}
+
+double twoDecimalPlaces(double n)
+{
+	return round(n*100.0)/100.0;
+}
