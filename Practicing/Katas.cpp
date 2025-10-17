@@ -2,6 +2,7 @@
 #include <cmath>
 #include <vector>
 #include <iostream>
+#include <string>
 
 int litres(double time) 
 {
@@ -78,3 +79,9 @@ std::vector<int> countPositivesSumNegatives(std::vector<int> input)
 
 	return res;
 }
+
+int string_to_number(const std::string& s)
+{
+	return std::stoi(s);
+}
+
