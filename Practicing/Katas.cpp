@@ -3,6 +3,8 @@
 #include <vector>
 #include <iostream>
 #include <string>
+#include <iomanip>
+#include <sstream>
 
 int litres(double time) 
 {
@@ -143,4 +145,17 @@ long long newAvg(std::vector<double>& arr, double navg)
 
 	x = round(x);
 	return x;
+}
+
+std::string seriesSum(int n)
+{
+	double res = 0;
+
+	for (int i = 1; i <= n; i++)
+		res += 1.0 / (3 * i - 2);
+
+	std::ostringstream oss;
+	oss << std::fixed << std::setprecision(2) << res;
+
+	return oss.str();
 }
