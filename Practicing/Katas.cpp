@@ -98,6 +98,17 @@ double twoDecimalPlaces(double n)
 	return round(n*100.0)/100.0;
 }
 
+std::vector<int> divisible_by(std::vector<int> numbers, int divisor)
+{
+	std::vector<int> res;
+
+	for (auto it = numbers.begin(); it != numbers.end(); ++it)
+		if (*it % divisor == 0)
+			res.push_back(*it);
+
+	return res;
+}
+
 long long newAvg(std::vector<double>& arr, double navg)
 {
 	if (arr.size() == 0)
