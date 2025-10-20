@@ -108,3 +108,39 @@ std::vector<int> divisible_by(std::vector<int> numbers, int divisor)
 
 	return res;
 }
+
+long long newAvg(std::vector<double>& arr, double navg)
+{
+	if (arr.size() == 0)
+		return navg;
+
+
+	if (navg < 0)
+		throw std::logic_error("");
+
+	int n = arr.size();
+	double sum = 0;
+	for (double i : arr)
+		sum += i;
+	double k = (n + 1)* navg;
+
+	double x = k - sum;
+
+	if (x < 0)
+		throw std::logic_error("");
+
+	//try
+	//{
+	//	if (x < 0)
+	//		throw std::logic_error("x is negative");
+	//}
+	//catch (const std::logic_error& err)
+	//{
+	//	std::cout << "Negative" << std::endl;
+	//}
+	/*if (x < 0)
+		throw std::logic_error("x is negative");*/
+
+	x = round(x);
+	return x;
+}
