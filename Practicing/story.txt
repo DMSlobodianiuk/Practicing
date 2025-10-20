@@ -1,14 +1,25 @@
 16.10.25
-Project was created to help me improve my c++ practice knowledge
-Was created GitHub repo and base for whole project
+Project was created to help me improve my c++ practice knowledge.
+Was created GitHub repo and base for whole project.
 
 Tasks:
 Keep Hydrated!
 Volume of a cuboid
 Miles per gallon to kilometers per liter
 To square root or no to square
-Were realised
+
+Were realised.
 
 
 17.10.25
+Tasks:
+Count of positives / sum of negatives
+Convert a String to a Number
+Willson primes          
+Formatting decimal places
+Find numbers which are divisible by given number
+
+Were realised.
+
+20.10.25
 

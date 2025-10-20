@@ -87,7 +87,6 @@ int string_to_number(const std::string& s)
 
 bool amIWilson(unsigned n)
 {
-two_decimal_places
 	if (n == 5 or n == 13 or n == 563)
 		return true;
 	else
@@ -99,3 +98,38 @@ double twoDecimalPlaces(double n)
 	return round(n*100.0)/100.0;
 }
 
+long long newAvg(std::vector<double>& arr, double navg)
+{
+	if (arr.size() == 0)
+		return navg;
+
+
+	if (navg < 0)
+		throw std::logic_error("");
+
+	int n = arr.size();
+	double sum = 0;
+	for (double i : arr)
+		sum += i;
+	double k = (n + 1)* navg;
+
+	double x = k - sum;
+
+	if (x < 0)
+		throw std::logic_error("");
+
+	//try
+	//{
+	//	if (x < 0)
+	//		throw std::logic_error("x is negative");
+	//}
+	//catch (const std::logic_error& err)
+	//{
+	//	std::cout << "Negative" << std::endl;
+	//}
+	/*if (x < 0)
+		throw std::logic_error("x is negative");*/
+
+	x = round(x);
+	return x;
+}

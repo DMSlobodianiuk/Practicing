@@ -17,3 +17,5 @@ int string_to_number(const std::string& s);
 bool amIWilson(unsigned n);
 
 double twoDecimalPlaces(double n);
+
+long long newAvg(std::vector<double>& arr, double navg);
