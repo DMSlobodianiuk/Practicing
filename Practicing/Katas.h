@@ -25,3 +25,5 @@ long long newAvg(std::vector<double>& arr, double navg);
 std::string seriesSum(int n);
 
 long long findNb(long long m);
+
+double f(double x);

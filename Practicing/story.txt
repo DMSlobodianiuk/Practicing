@@ -29,5 +29,7 @@ Sum of the first nth term of Series
 Were realised.
 
 21.10.25
+Tasks:
+Build a pile of Cubes
 
-
+Were realised.

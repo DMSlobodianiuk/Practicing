@@ -175,3 +175,8 @@ long long findNb(long long m)
 
 	return (res == m)? i : -1;
 }
+
+double f(double x)
+{
+	return 1 / (sqrt(1 + x) - 1);
+}
