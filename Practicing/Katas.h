@@ -26,4 +26,4 @@ std::string seriesSum(int n);
 
 long long findNb(long long m);
 
-std::string balance(std::string book);
+double f(double x);

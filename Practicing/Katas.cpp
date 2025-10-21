@@ -176,13 +176,7 @@ long long findNb(long long m)
 	return (res == m)? i : -1;
 }
 
-std::string balance(std::string book)
+double f(double x)
 {
-	double originalBalance;
-	double market;
-	double balance;
-
-
-
-	return "";
+	return 1 / (sqrt(1 + x) - 1);
 }
