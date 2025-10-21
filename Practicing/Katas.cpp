@@ -175,3 +175,14 @@ long long findNb(long long m)
 
 	return (res == m)? i : -1;
 }
+
+std::string balance(std::string book)
+{
+	double originalBalance;
+	double market;
+	double balance;
+
+
+
+	return "";
+}
