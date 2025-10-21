@@ -23,3 +23,5 @@ std::vector<int> divisible_by(std::vector<int> numbers, int divisor);
 long long newAvg(std::vector<double>& arr, double navg);
 
 std::string seriesSum(int n);
+
+long long findNb(long long m);
