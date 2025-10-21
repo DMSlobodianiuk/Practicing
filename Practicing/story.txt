@@ -22,4 +22,12 @@ Find numbers which are divisible by given number
 Were realised.
 
 20.10.25
+Tasks:
+Looking for a benefactor
+Sum of the first nth term of Series
+
+Were realised.
+
+21.10.25
+
 

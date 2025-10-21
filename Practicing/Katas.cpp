@@ -159,3 +159,19 @@ std::string seriesSum(int n)
 
 	return oss.str();
 }
+
+long long findNb(long long m)
+{
+	long long res = 0;
+
+	long long i = 0;
+
+	while (res < m)
+	{
+		++i;
+		res += i * i * i;
+	}
+
+
+	return (res == m)? i : -1;
+}
