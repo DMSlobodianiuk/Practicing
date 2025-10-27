@@ -180,3 +180,16 @@ double f(double x)
 {
 	return 1 / (sqrt(1 + x) - 1);
 }
+
+double mean(std::string town, const std::string &string)
+{
+	std::string delimiter = "\n";
+
+
+	return 0.0;
+}
+
+double variance(std::string town, const std::string& string)
+{
+	return 0.0;
+}
