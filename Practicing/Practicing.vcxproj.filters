@@ -33,4 +33,7 @@
   <ItemGroup>
     <Text Include="story.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Test.file" />
+  </ItemGroup>
 </Project>
