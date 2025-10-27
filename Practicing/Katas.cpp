@@ -184,6 +184,8 @@ double f(double x)
 double mean(std::string town, const std::string &string)
 {
 	std::string delimiter = "\n";
+	std::vector<std::string> towns = { "Rome", "London", "Paris", "NY", "Vancouver", "Sydney", "Bangkok", "Tokyo",
+	  "Beijing", "Lima", "Montevideo", "Caracas", "Madrid", "Berlin" };
 
 
 	return 0.0;
@@ -191,5 +193,8 @@ double mean(std::string town, const std::string &string)
 
 double variance(std::string town, const std::string& string)
 {
+	std::vector<std::string> towns = { "Rome", "London", "Paris", "NY", "Vancouver", "Sydney", "Bangkok", "Tokyo",
+	  "Beijing", "Lima", "Montevideo", "Caracas", "Madrid", "Berlin" };
+
 	return 0.0;
 }
