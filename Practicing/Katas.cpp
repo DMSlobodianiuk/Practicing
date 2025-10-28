@@ -1,10 +1,12 @@
 #include "Katas.h"
+#include "HelperFunction.h"
 #include <cmath>
 #include <vector>
 #include <iostream>
 #include <string>
 #include <iomanip>
 #include <sstream>
+
 
 int litres(double time) 
 {
@@ -124,7 +126,7 @@ long long newAvg(std::vector<double>& arr, double navg)
 	double sum = 0;
 	for (double i : arr)
 		sum += i;
-	double k = (n + 1)* navg;
+	double k = (n + 1) * navg;
 
 	double x = k - sum;
 
@@ -173,10 +175,65 @@ long long findNb(long long m)
 	}
 
 
-	return (res == m)? i : -1;
+	return (res == m) ? i : -1;
 }
 
 double f(double x)
 {
 	return 1 / (sqrt(1 + x) - 1);
+}
+
+double mean(std::string town, const std::string& string)
+{
+	std::vector<std::string> towns = { "Rome", "London", "Paris", "NY", "Vancouver", "Sydney", "Bangkok", "Tokyo",
+	  "Beijing", "Lima", "Montevideo", "Caracas", "Madrid", "Berlin" };
+
+	if (std::find(towns.begin(), towns.end(), town) == towns.end())
+		return -1;
+
+	std::string neededLine = getNeededLine(string, town);
+
+	if (neededLine.empty())
+		return -1;
+
+	std::vector<double> neededvalues= getNeededValues(neededLine);
+
+	if(neededvalues.empty())
+		return -1;
+
+	double meanvalue = 0.0;
+
+	for (double v : neededvalues)
+	{
+		meanvalue += v;
+	}
+	
+	return meanvalue / neededvalues.size();
+}
+
+double variance(std::string town, const std::string& string)
+{
+	std::vector<std::string> towns = { "Rome", "London", "Paris", "NY", "Vancouver", "Sydney", "Bangkok", "Tokyo",
+	  "Beijing", "Lima", "Montevideo", "Caracas", "Madrid", "Berlin" };
+
+	if (std::find(towns.begin(), towns.end(), town) == towns.end())
+		return -1;
+
+	std::string neededLine = getNeededLine(string, town);
+
+	if (neededLine.empty())
+		return -1;
+
+	std::vector<double> neededValues = getNeededValues(neededLine);
+
+	if(neededValues.empty())
+		return -1;
+
+	double variancevalue = 0;
+	double meanvalue = mean(town, string);
+
+	for (auto it = neededValues.begin(); it != neededValues.end(); ++it)
+		variancevalue += pow(*it-meanvalue,2);
+
+	return variancevalue/neededValues.size();
 }

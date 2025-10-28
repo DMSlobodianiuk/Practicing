@@ -16,6 +16,9 @@
     <Filter Include="Katas">
       <UniqueIdentifier>{61253e77-b7b6-44bc-abba-27bd80310ade}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{187a264e-7ad9-4e10-ab6d-3e269d85ca44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="Katas.cpp">
       <Filter>Katas</Filter>
     </ClCompile>
+    <ClCompile Include="HelperFunction.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Katas.h">
       <Filter>Katas</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunction.h">
+      <Filter>Helper</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
