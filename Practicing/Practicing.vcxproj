@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HelperFunction.cpp" />
     <ClCompile Include="Katas.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HelperFunction.h" />
     <ClInclude Include="Katas.h" />
   </ItemGroup>
   <ItemGroup>

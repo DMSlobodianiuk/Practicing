@@ -31,3 +31,4 @@ double f(double x);
 double mean(std::string town, const std::string &string);
 
 double variance(std::string town, const std::string& string);
+
