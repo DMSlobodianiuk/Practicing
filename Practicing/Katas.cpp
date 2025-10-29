@@ -6,7 +6,8 @@
 #include <string>
 #include <iomanip>
 #include <sstream>
-
+#include <map>
+#include <format>
 
 int litres(double time) 
 {
@@ -236,4 +237,39 @@ double variance(std::string town, const std::string& string)
 		variancevalue += pow(*it-meanvalue,2);
 
 	return variancevalue/neededValues.size();
+}
+
+std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::string>& categories)
+{
+	std::string res = "";
+	if (categories.size() == 0 or lstOfArt.size() == 0)
+		return res;
+
+	std::map<char, unsigned> stock;
+
+	for (std::string str : categories)
+	{
+		stock[str[0]] = 0;
+	}
+
+	for (std::string str : lstOfArt)
+	{
+		if (stock.count(str[0]) == 0 && (std::find(categories.begin(), categories.end(), std::string(1, str[0])) != categories.end()))
+		{
+			stock[str[0]] = std::stod(str.substr(str.find(" ") + 1, str.length()));
+		}
+		else if (stock.count(str[0]) > 0 && (std::find(categories.begin(), categories.end(), std::string(1, str[0])) != categories.end()))
+		{
+			stock[str[0]] += std::stod(str.substr(str.find(" ") + 1, str.length()));
+		}
+	}
+
+	for (const std::string& c : categories)
+	{
+		char key = c[0];
+		unsigned val = stock[key];
+		res += "(" + std::string(1, key) + " : " + std::to_string(val) + ") - ";
+	}
+
+	return res.substr(0, res.length() - 3);
 }
