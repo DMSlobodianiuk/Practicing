@@ -277,8 +277,6 @@ std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::st
 
 std::pair<long long, long long> gap(int g, long long m, long long n)
 {
-	std::vector<long long> primes;
-	
 	long long g1 = m;
 	long long g2 = m;
 
@@ -287,10 +285,8 @@ std::pair<long long, long long> gap(int g, long long m, long long n)
 		if (isPrime(i))
 		{
 			g2 = i;
-			primes.push_back(i);
 			if (g2 - g1 == g && isPrime(g1) && isPrime(g2))
 			{
-				std::cout << g1 << " " << i;
 				return { g1,g2 };
 			}
 			else
@@ -298,6 +294,18 @@ std::pair<long long, long long> gap(int g, long long m, long long n)
 		}
 	}
 
-
 	return { 0,0 };
+}
+
+long zeros(long n)
+{
+	long zero = 0;
+	int power = 1;
+
+	while (pow(5, power) <= n)
+	{
+		zero += n / pow(5, power);
+		power += 1;
+	}
+	return zero;
 }
