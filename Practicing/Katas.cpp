@@ -8,6 +8,7 @@
 #include <sstream>
 #include <map>
 #include <format>
+#include <utility>
 
 int litres(double time) 
 {
@@ -272,4 +273,31 @@ std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::st
 	}
 
 	return res.substr(0, res.length() - 3);
+}
+
+std::pair<long long, long long> gap(int g, long long m, long long n)
+{
+	std::vector<long long> primes;
+	
+	long long g1 = m;
+	long long g2 = m;
+
+	for (int i = m; i <= n; i++)
+	{
+		if (isPrime(i))
+		{
+			g2 = i;
+			primes.push_back(i);
+			if (g2 - g1 == g && isPrime(g1) && isPrime(g2))
+			{
+				std::cout << g1 << " " << i;
+				return { g1,g2 };
+			}
+			else
+				g1 = i;
+		}
+	}
+
+
+	return { 0,0 };
 }
