@@ -33,3 +33,5 @@ double mean(std::string town, const std::string &string);
 double variance(std::string town, const std::string& string);
 
 std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::string>& categories);
+
+std::pair<long long, long long> gap(int g, long long m, long long n);
