@@ -52,3 +52,8 @@ Help in bookseller!
 Were realised.
 
 30.10.25
+Tasks:
+Gap in Primes
+Trailing zeros in factorial
+
+Were realised.
