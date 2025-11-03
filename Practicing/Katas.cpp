@@ -309,3 +309,8 @@ long zeros(long n)
 	}
 	return zero;
 }
+
+unsigned long long perimeter(int n)
+{
+	return fiboSum(n) * 4;
+}
