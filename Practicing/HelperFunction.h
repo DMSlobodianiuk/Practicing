@@ -9,3 +9,5 @@ std::string getNeededLine(const std::string& input, std::string town);
 std::vector<double> getNeededValues(const std::string &input);
 
 bool isPrime(int n);
+
+long fiboSum(int n);

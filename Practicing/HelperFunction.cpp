@@ -78,3 +78,22 @@ bool isPrime(int n)
 			return false;
 	return true;
 }
+
+long fiboSum(int n)
+{
+	if (n == 0)
+		return 1;
+	long f = 0;
+	long s = 1;
+	long t;
+	long sum = 0;
+
+	for (int i = 0; i <= n; i++)
+	{
+		t = f;
+		f = s + f;
+		s = t;
+		sum += f;
+	}
+	return sum;
+}

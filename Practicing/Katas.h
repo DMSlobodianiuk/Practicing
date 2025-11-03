@@ -37,3 +37,5 @@ std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::st
 std::pair<long long, long long> gap(int g, long long m, long long n);
 
 long zeros(long n);
+
+unsigned long long perimeter(int n);
