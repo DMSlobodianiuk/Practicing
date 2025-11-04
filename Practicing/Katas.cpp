@@ -314,3 +314,10 @@ unsigned long long perimeter(int n)
 {
 	return fiboSum(n) * 4;
 }
+
+double solve(double m)
+{
+	double sqrtD = std::sqrt(4.0 * m + 1.0);
+	double x = (2.0 * m + 1.0 - sqrtD) / (2.0 * m);
+	return x;
+}
