@@ -41,3 +41,5 @@ long zeros(long n);
 unsigned long long perimeter(int n);
 
 double solve(double m);
+
+std::vector<long long> smallest(long long n);

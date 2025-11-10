@@ -321,3 +321,49 @@ double solve(double m)
 	double x = (2.0 * m + 1.0 - sqrtD) / (2.0 * m);
 	return x;
 }
+
+std::vector<long long> smallest(long long n)
+{
+	std::string s = std::to_string(n);
+	long long minValue = n;
+	int bestI = 0;
+	int bestJ = 0;
+
+	for (int i = 0; i < s.length(); ++i)
+	{
+		for (int j = 0; j < s.length(); ++j)
+		{
+			if (i == j) continue;
+
+			std::string temp = s;
+
+			char c = temp[i];
+
+			temp.erase(temp.begin() + i);
+
+			temp.insert(temp.begin() + j, c);
+
+			long long val = stoll(temp);
+
+			if (val < minValue || (val == minValue && i < bestI) || (val == minValue && i == bestI && j < bestJ))
+			{
+				minValue = val;
+				bestI = i;
+				bestJ = j;
+			}
+
+		}
+	}
+
+	std::vector<long long> res;
+
+	res.push_back(minValue);
+	res.push_back(bestI);
+	res.push_back(bestJ);
+
+	for (long long x : res)
+		std::cout << x << " ";
+	std::cout << std::endl;
+
+	return res;
+}
