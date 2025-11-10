@@ -63,3 +63,10 @@ Tasks:
 Perimeter of squares in a rectangle
 
 Were realised.
+
+
+04.10.25
+Tasks:
+Which x for that sum?
+
+Were realised.
