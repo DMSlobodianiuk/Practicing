@@ -19,6 +19,27 @@
     <Filter Include="Helper">
       <UniqueIdentifier>{187a264e-7ad9-4e10-ab6d-3e269d85ca44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tasks">
+      <UniqueIdentifier>{f181728c-bb39-4909-81ee-c0525b6a23e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\implementation">
+      <UniqueIdentifier>{8dcb2e92-35e8-49c6-92ea-6d4eeba96288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\implementation\Base">
+      <UniqueIdentifier>{9b8e846a-8d12-440e-88e0-b3765023d6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\implementation\Five">
+      <UniqueIdentifier>{3898156f-4d62-48de-9b03-e7f70468ae4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\implementation\Six">
+      <UniqueIdentifier>{deb06c24-3357-4227-8e54-913ca2e7daa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\implementation\Seven">
+      <UniqueIdentifier>{ff51925e-dafc-4811-b3e7-165d6fde9a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\implementation\Eight">
+      <UniqueIdentifier>{6940d05e-bf0e-4a8f-87db-4e17c9dab419}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -30,13 +51,40 @@
     <ClCompile Include="HelperFunction.cpp">
       <Filter>Helper</Filter>
     </ClCompile>
+    <ClCompile Include="Five.cpp">
+      <Filter>Tasks\implementation\Five</Filter>
+    </ClCompile>
+    <ClCompile Include="Eight.cpp">
+      <Filter>Tasks\implementation\Eight</Filter>
+    </ClCompile>
+    <ClCompile Include="Seven.cpp">
+      <Filter>Tasks\implementation\Seven</Filter>
+    </ClCompile>
+    <ClCompile Include="Six.cpp">
+      <Filter>Tasks\implementation\Six</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Tasks\implementation\Base</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Katas.h">
-      <Filter>Katas</Filter>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Five.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Six.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Seven.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HelperFunction.h">
-      <Filter>Helper</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
