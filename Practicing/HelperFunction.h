@@ -2,12 +2,15 @@
 #include <vector>
 #include <string>
 
-std::vector<std::string> splitString(const std::string& input, const std::string delimiter);
+namespace helper {
 
-std::string getNeededLine(const std::string& input, std::string town);
+	std::vector<std::string> splitString(const std::string& input, const std::string delimiter);
 
-std::vector<double> getNeededValues(const std::string &input);
+	std::string getNeededLine(const std::string& input, std::string town);
 
-bool isPrime(int n);
+	std::vector<double> getNeededValues(const std::string& input);
 
-long fiboSum(int n);
+	bool isPrime(int n);
+
+	long fiboSum(int n);
+}

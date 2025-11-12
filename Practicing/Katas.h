@@ -2,44 +2,49 @@
 #include <vector>
 #include <string>
 
-int litres(double time);
+namespace katas 
+{
 
-double getVolumeOfCuboid(double length, double width, double height);
+	int litres(double time);
 
-double converter(int mpg);
+	double getVolumeOfCuboid(double length, double width, double height);
 
-std::vector<int> squareOrSquareRoot(const std::vector<int>& array);
+	double converter(int mpg);
 
-std::vector<int> countPositivesSumNegatives(std::vector<int> input);
+	std::vector<int> squareOrSquareRoot(const std::vector<int>& array);
 
-int string_to_number(const std::string& s);
+	std::vector<int> countPositivesSumNegatives(std::vector<int> input);
 
-bool amIWilson(unsigned n);
+	int string_to_number(const std::string& s);
 
-double twoDecimalPlaces(double n);
+	bool amIWilson(unsigned n);
 
-std::vector<int> divisible_by(std::vector<int> numbers, int divisor);
+	double twoDecimalPlaces(double n);
 
-long long newAvg(std::vector<double>& arr, double navg);
+	std::vector<int> divisible_by(std::vector<int> numbers, int divisor);
 
-std::string seriesSum(int n);
+	long long newAvg(std::vector<double>& arr, double navg);
 
-long long findNb(long long m);
+	std::string seriesSum(int n);
 
-double f(double x);
+	long long findNb(long long m);
 
-double mean(std::string town, const std::string &string);
+	double f(double x);
 
-double variance(std::string town, const std::string& string);
+	double mean(std::string town, const std::string& string);
 
-std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::string>& categories);
+	double variance(std::string town, const std::string& string);
 
-std::pair<long long, long long> gap(int g, long long m, long long n);
+	std::string stockSummary(std::vector<std::string>& lstOfArt, std::vector<std::string>& categories);
 
-long zeros(long n);
+	std::pair<long long, long long> gap(int g, long long m, long long n);
 
-unsigned long long perimeter(int n);
+	long zeros(long n);
 
-double solve(double m);
+	unsigned long long perimeter(int n);
 
-std::vector<long long> smallest(long long n);
+	double solve(double m);
+
+	std::vector<long long> smallest(long long n);
+
+}
