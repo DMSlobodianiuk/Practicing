@@ -1,0 +1,10 @@
+#pragma once
+#include "include.h";
+#include "Five.h";
+//#include "Six.h"
+//#include "Seven.h"
+//#include "Eight.h"
+//#include "Nine.h"
+//#include "Kata.h"
+//#include "Task.h"
+//#include "HelperFunctions.h"
