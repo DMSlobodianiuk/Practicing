@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,23 +124,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Eight.cpp" />
-    <ClCompile Include="Five.cpp" />
-    <ClCompile Include="HelperFunction.cpp" />
-    <ClCompile Include="Katas.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Seven.cpp" />
-    <ClCompile Include="Six.cpp" />
-    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="src\Eight.cpp" />
+    <ClCompile Include="src\Five.cpp" />
+    <ClCompile Include="src\HelperFunctions.cpp" />
+    <ClCompile Include="src\Kata.cpp" />
+    <ClCompile Include="src\Seven.cpp" />
+    <ClCompile Include="src\Six.cpp" />
+    <ClCompile Include="src\Task.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Eight.h" />
-    <ClInclude Include="Five.h" />
-    <ClInclude Include="HelperFunction.h" />
-    <ClInclude Include="Katas.h" />
-    <ClInclude Include="Seven.h" />
-    <ClInclude Include="Six.h" />
-    <ClInclude Include="Task.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="include\Eight.h" />
+    <ClInclude Include="include\Five.h" />
+    <ClInclude Include="include\HelperFunctions.h" />
+    <ClInclude Include="include\Kata.h" />
+    <ClInclude Include="include\Seven.h" />
+    <ClInclude Include="include\Six.h" />
+    <ClInclude Include="include\Task.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="story.txt" />

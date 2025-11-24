@@ -79,6 +79,12 @@ Were realised.
 
 12.11.25
 Tasks:
-
+Base structre idea was created
 
 Were realised.
+
+24.11.25
+Tasks:
+Main project's structure was implemented
+
+Were realised
