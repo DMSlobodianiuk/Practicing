@@ -9,85 +9,66 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="src">
+      <UniqueIdentifier>{43152ad5-b926-452c-b235-cfffd5689a75}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Helper">
-      <UniqueIdentifier>{187a264e-7ad9-4e10-ab6d-3e269d85ca44}</UniqueIdentifier>
+    <Filter Include="include">
+      <UniqueIdentifier>{fd237271-9655-435b-ba0a-910cd01dfac3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Tasks">
-      <UniqueIdentifier>{f181728c-bb39-4909-81ee-c0525b6a23e4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Tasks\implementation">
-      <UniqueIdentifier>{8dcb2e92-35e8-49c6-92ea-6d4eeba96288}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Tasks\implementation\Base">
-      <UniqueIdentifier>{9b8e846a-8d12-440e-88e0-b3765023d6af}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Tasks\implementation\Five">
-      <UniqueIdentifier>{3898156f-4d62-48de-9b03-e7f70468ae4d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Tasks\implementation\Six">
-      <UniqueIdentifier>{deb06c24-3357-4227-8e54-913ca2e7daa4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Tasks\implementation\Seven">
-      <UniqueIdentifier>{ff51925e-dafc-4811-b3e7-165d6fde9a01}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Tasks\implementation\Eight">
-      <UniqueIdentifier>{6940d05e-bf0e-4a8f-87db-4e17c9dab419}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="KatasFolder">
-      <UniqueIdentifier>{61253e77-b7b6-44bc-abba-27bd80310ade}</UniqueIdentifier>
+    <Filter Include="include\Levels">
+      <UniqueIdentifier>{66c063d2-c910-4611-99e4-967b4aecad2e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Katas.cpp">
-      <Filter>KatasFolder</Filter>
+    <ClCompile Include="src\Eight.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="HelperFunction.cpp">
-      <Filter>Helper</Filter>
+    <ClCompile Include="src\Five.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Five.cpp">
-      <Filter>Tasks\implementation\Five</Filter>
+    <ClCompile Include="src\HelperFunctions.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Eight.cpp">
-      <Filter>Tasks\implementation\Eight</Filter>
+    <ClCompile Include="src\Kata.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Seven.cpp">
-      <Filter>Tasks\implementation\Seven</Filter>
+    <ClCompile Include="src\Seven.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Six.cpp">
-      <Filter>Tasks\implementation\Six</Filter>
+    <ClCompile Include="src\Six.cpp">
+      <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Task.cpp">
-      <Filter>Tasks\implementation\Base</Filter>
+    <ClCompile Include="src\Task.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Task.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\HelperFunctions.h">
+      <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="Eight.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\Kata.h">
+      <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="Five.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\Task.h">
+      <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="Six.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include.h">
+      <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="Seven.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\Eight.h">
+      <Filter>include\Levels</Filter>
     </ClInclude>
-    <ClInclude Include="HelperFunction.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\Five.h">
+      <Filter>include\Levels</Filter>
     </ClInclude>
-    <ClInclude Include="Katas.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\Seven.h">
+      <Filter>include\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Six.h">
+      <Filter>include\Levels</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

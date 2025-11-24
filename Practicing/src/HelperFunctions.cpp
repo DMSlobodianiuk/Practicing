@@ -1,4 +1,4 @@
-#include "HelperFunction.h"
+#include "HelperFunctions.h"
 #include <cmath>
 #include <vector>
 #include <iostream>
