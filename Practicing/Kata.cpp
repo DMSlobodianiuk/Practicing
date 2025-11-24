@@ -1,5 +1,3 @@
-#include "Katas.h"
-#include "HelperFunction.h"
 #include <cmath>
 #include <vector>
 #include <iostream>
@@ -9,6 +7,9 @@
 #include <map>
 #include <format>
 #include <utility>
+#include "HelperFunction.h"
+
+using namespace helper;
 
 namespace katas {
 

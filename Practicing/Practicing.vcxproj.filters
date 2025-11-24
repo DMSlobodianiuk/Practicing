@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Katas">
-      <UniqueIdentifier>{61253e77-b7b6-44bc-abba-27bd80310ade}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Helper">
       <UniqueIdentifier>{187a264e-7ad9-4e10-ab6d-3e269d85ca44}</UniqueIdentifier>
     </Filter>
@@ -40,13 +37,16 @@
     <Filter Include="Tasks\implementation\Eight">
       <UniqueIdentifier>{6940d05e-bf0e-4a8f-87db-4e17c9dab419}</UniqueIdentifier>
     </Filter>
+    <Filter Include="KatasFolder">
+      <UniqueIdentifier>{61253e77-b7b6-44bc-abba-27bd80310ade}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Katas.cpp">
-      <Filter>Katas</Filter>
+      <Filter>KatasFolder</Filter>
     </ClCompile>
     <ClCompile Include="HelperFunction.cpp">
       <Filter>Helper</Filter>
@@ -84,6 +84,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HelperFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Katas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-namespace katas 
+namespace kata
 {
 
 	int litres(double time);
