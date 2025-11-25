@@ -1,5 +1,3 @@
-#include "Six.h"
-#include "HelperFunctions.h"
 #include <cmath>
 #include <vector>
 #include <iostream>
@@ -9,6 +7,7 @@
 #include <map>
 #include <format>
 #include <utility>
+#include "Helper/HelperFunctions.h"
 
 using namespace helper;
 

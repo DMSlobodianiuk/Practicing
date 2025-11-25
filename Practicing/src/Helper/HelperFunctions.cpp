@@ -1,4 +1,4 @@
-#include "HelperFunctions.h"
+#include "include.h"
 #include <cmath>
 #include <vector>
 #include <iostream>
@@ -100,4 +100,5 @@ namespace helper
 		}
 		return sum;
 	}
+
 }

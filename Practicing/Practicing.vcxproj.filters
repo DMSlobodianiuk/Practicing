@@ -21,60 +21,87 @@
     <Filter Include="include\Helper">
       <UniqueIdentifier>{5162aed7-8ad1-4a0d-b060-b25eac4d3e49}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\Katas">
+    <Filter Include="include\Menu">
+      <UniqueIdentifier>{b80c5c05-2585-4d4b-8f5e-2e276417136b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Tasks">
+      <UniqueIdentifier>{3a75ff8d-7c47-4970-8042-bcd8bced851e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Helper">
+      <UniqueIdentifier>{77f3742a-48ba-4688-a53a-65d7b89eb42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Kata">
+      <UniqueIdentifier>{31901ae8-d0a5-440b-bd5d-fa60dd2fac1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Kata">
       <UniqueIdentifier>{2b1f9db8-ec01-4468-8dc3-1583350d385e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Levels">
+      <UniqueIdentifier>{68aef106-230f-4a4c-8ab1-3bc32b378992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tasks">
+      <UniqueIdentifier>{7fa1406f-e600-44c2-93c5-627c26b29c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Menu">
+      <UniqueIdentifier>{ca12e9c2-3ab0-4819-8909-19540f5fe460}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Eight.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Helper\HelperFunctions.cpp">
+      <Filter>src\Helper</Filter>
     </ClCompile>
-    <ClCompile Include="src\Five.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Kata\Kata.cpp">
+      <Filter>src\Kata</Filter>
     </ClCompile>
-    <ClCompile Include="src\HelperFunctions.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Levels\Eight.cpp">
+      <Filter>src\Levels</Filter>
     </ClCompile>
-    <ClCompile Include="src\Kata.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Levels\Five.cpp">
+      <Filter>src\Levels</Filter>
     </ClCompile>
-    <ClCompile Include="src\Seven.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Levels\Seven.cpp">
+      <Filter>src\Levels</Filter>
     </ClCompile>
-    <ClCompile Include="src\Six.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Levels\Six.cpp">
+      <Filter>src\Levels</Filter>
     </ClCompile>
-    <ClCompile Include="src\Task.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Tasks\Task.cpp">
+      <Filter>src\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>src\Menu</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Task.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="include.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\Eight.h">
-      <Filter>include\Levels</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Five.h">
-      <Filter>include\Levels</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Seven.h">
-      <Filter>include\Levels</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Six.h">
-      <Filter>include\Levels</Filter>
-    </ClInclude>
-    <ClInclude Include="include\HelperFunctions.h">
+    <ClInclude Include="include\Helper\HelperFunctions.h">
       <Filter>include\Helper</Filter>
     </ClInclude>
-    <ClInclude Include="include\Kata.h">
-      <Filter>include\Katas</Filter>
+    <ClInclude Include="include\Kata\Kata.h">
+      <Filter>include\Kata</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Levels\Eight.h">
+      <Filter>include\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Levels\Five.h">
+      <Filter>include\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Levels\Seven.h">
+      <Filter>include\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Levels\Six.h">
+      <Filter>include\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\Task.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>include\Menu</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
