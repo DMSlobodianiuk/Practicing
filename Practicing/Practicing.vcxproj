@@ -125,23 +125,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="src\Eight.cpp" />
-    <ClCompile Include="src\Five.cpp" />
-    <ClCompile Include="src\HelperFunctions.cpp" />
-    <ClCompile Include="src\Kata.cpp" />
-    <ClCompile Include="src\Seven.cpp" />
-    <ClCompile Include="src\Six.cpp" />
-    <ClCompile Include="src\Task.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="src\Helper\HelperFunctions.cpp" />
+    <ClCompile Include="src\Kata\Kata.cpp" />
+    <ClCompile Include="src\Levels\Eight.cpp" />
+    <ClCompile Include="src\Levels\Five.cpp" />
+    <ClCompile Include="src\Levels\Seven.cpp" />
+    <ClCompile Include="src\Levels\Six.cpp" />
+    <ClCompile Include="src\Tasks\Task.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h" />
-    <ClInclude Include="include\Eight.h" />
-    <ClInclude Include="include\Five.h" />
-    <ClInclude Include="include\HelperFunctions.h" />
-    <ClInclude Include="include\Kata.h" />
-    <ClInclude Include="include\Seven.h" />
-    <ClInclude Include="include\Six.h" />
-    <ClInclude Include="include\Task.h" />
+    <ClInclude Include="include\Helper\HelperFunctions.h" />
+    <ClInclude Include="include\Kata\Kata.h" />
+    <ClInclude Include="include\Levels\Eight.h" />
+    <ClInclude Include="include\Levels\Five.h" />
+    <ClInclude Include="include\Levels\Seven.h" />
+    <ClInclude Include="include\Levels\Six.h" />
+    <ClInclude Include="include\Tasks\Task.h" />
+    <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="story.txt" />
