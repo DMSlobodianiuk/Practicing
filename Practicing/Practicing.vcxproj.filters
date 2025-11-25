@@ -18,6 +18,12 @@
     <Filter Include="include\Levels">
       <UniqueIdentifier>{66c063d2-c910-4611-99e4-967b4aecad2e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\Helper">
+      <UniqueIdentifier>{5162aed7-8ad1-4a0d-b060-b25eac4d3e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Katas">
+      <UniqueIdentifier>{2b1f9db8-ec01-4468-8dc3-1583350d385e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -46,12 +52,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\HelperFunctions.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Kata.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="include\Task.h">
       <Filter>include</Filter>
     </ClInclude>
@@ -69,6 +69,12 @@
     </ClInclude>
     <ClInclude Include="include\Six.h">
       <Filter>include\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HelperFunctions.h">
+      <Filter>include\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kata.h">
+      <Filter>include\Katas</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
