@@ -133,6 +133,7 @@
     <ClCompile Include="src\Levels\Seven.cpp" />
     <ClCompile Include="src\Levels\Six.cpp" />
     <ClCompile Include="src\Tasks\Task.cpp" />
+    <ClCompile Include="src\Tasks\TasksList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h" />
@@ -143,6 +144,7 @@
     <ClInclude Include="include\Levels\Seven.h" />
     <ClInclude Include="include\Levels\Six.h" />
     <ClInclude Include="include\Tasks\Task.h" />
+    <ClInclude Include="include\Tasks\TasksList.h" />
     <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>

@@ -74,6 +74,9 @@
     <ClCompile Include="Menu.cpp">
       <Filter>src\Menu</Filter>
     </ClCompile>
+    <ClCompile Include="src\Tasks\TasksList.cpp">
+      <Filter>src\Tasks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -102,6 +105,9 @@
     </ClInclude>
     <ClInclude Include="Menu.h">
       <Filter>include\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\TasksList.h">
+      <Filter>include\Tasks</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
