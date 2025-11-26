@@ -12,5 +12,7 @@ public:
 	void welcome();
 
 	void select();
+
+	void mainMenu();
 };
 
