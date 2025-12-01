@@ -142,6 +142,18 @@
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskGap.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskPerimeter.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskSmallest.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskSolve.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskZeros.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SevenLevel\TaskNewAvg.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SevenLevel\TaskSeriesSum.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskF.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskFindNb.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskMean.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskStockSummary.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskVariance.cpp" />
     <ClCompile Include="src\Tasks\ITask.cpp" />
     <ClCompile Include="src\Tasks\TasksList.cpp" />
   </ItemGroup>
@@ -163,6 +175,18 @@
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskGap.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskPerimeter.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskSmallest.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskSolve.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskZeros.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\TaskNewAvg.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\TaskSeriesSum.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskF.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskFindNb.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskMean.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskStockSummary.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskVariance.h" />
     <ClInclude Include="include\Tasks\ITask.h" />
     <ClInclude Include="include\Tasks\TasksList.h" />
     <ClInclude Include="Menu.h" />
