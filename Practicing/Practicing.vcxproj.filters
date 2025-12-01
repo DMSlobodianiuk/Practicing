@@ -57,6 +57,24 @@
     <Filter Include="include\Tasks\CodewarsTasks\EightLevel">
       <UniqueIdentifier>{f5959930-8636-4183-85bd-e963dc997eb4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\Tasks\CodewarsTasks\SevenLevel">
+      <UniqueIdentifier>{f2e93eeb-7dbb-44ec-9475-d7cbd93743aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Tasks\CodewarsTasks\SixLevel">
+      <UniqueIdentifier>{150862a1-72df-47cc-849f-33c545de43f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Tasks\CodewarsTasks\FiveLevel">
+      <UniqueIdentifier>{14c36487-6d22-4db6-89d4-3f8a6ffc13f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tasks\CodewarsTasks\SevenLevel">
+      <UniqueIdentifier>{3b3f18ea-c42c-46e4-86a7-d6c228ebe308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tasks\CodewarsTasks\SixLevel">
+      <UniqueIdentifier>{878f4de0-7cae-4c98-8dea-dffc31d96479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tasks\CodewarsTasks\FiveLevel">
+      <UniqueIdentifier>{fb7d3869-41b9-4294-a0c8-fb9fa29dd9a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -119,6 +137,42 @@
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.cpp">
       <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SevenLevel\TaskNewAvg.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SevenLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SevenLevel\TaskSeriesSum.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SevenLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskF.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskVariance.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskStockSummary.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskMean.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\SixLevel\TaskFindNb.cpp">
+      <Filter>src\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskGap.cpp">
+      <Filter>src\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskPerimeter.cpp">
+      <Filter>src\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskSmallest.cpp">
+      <Filter>src\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskSolve.cpp">
+      <Filter>src\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskZeros.cpp">
+      <Filter>src\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -180,6 +234,42 @@
     </ClInclude>
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.h">
       <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\TaskNewAvg.h">
+      <Filter>include\Tasks\CodewarsTasks\SevenLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\TaskSeriesSum.h">
+      <Filter>include\Tasks\CodewarsTasks\SevenLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskF.h">
+      <Filter>include\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskFindNb.h">
+      <Filter>include\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskMean.h">
+      <Filter>include\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskVariance.h">
+      <Filter>include\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskStockSummary.h">
+      <Filter>include\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskGap.h">
+      <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskPerimeter.h">
+      <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskSmallest.h">
+      <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskSolve.h">
+      <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskZeros.h">
+      <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

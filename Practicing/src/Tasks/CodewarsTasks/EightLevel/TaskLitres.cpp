@@ -1,4 +1,4 @@
-#include "Tasks/CodewarsTasks/TaskLitres.h"
+#include "Tasks/CodewarsTasks/EightLevel/TaskLitres.h"
 #include "Levels/Eight.h"
 #include "Helper/Reader.h"
 #include <iostream>
