@@ -4,11 +4,9 @@
 #include <iostream>
 #include <limits>
 
-TaskLitres::TaskLitres(std::string name,std::string description)
-    : mName(std::move(name)), mDescription(std::move(description))
-{}
+TaskLitres::TaskLitres(){}
 
-int TaskLitres::run()
+void TaskLitres::run()
 {
     try
     {
@@ -17,17 +15,14 @@ int TaskLitres::run()
 
         int result = eight::litres(t);
         std::cout << "Result: " << result << std::endl;
-        return 0;
     }
     catch (const readerNamespace::InputError& ie)
     {
         std::cout << "Input error: " << ie.what() << std::endl;
-        return 1;
     }
     catch (const std::exception& ex)
     {
         std::cout << "Error: " << ex.what() << std::endl;
-        return 2;
     }
 }
 

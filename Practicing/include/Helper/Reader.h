@@ -26,6 +26,7 @@ namespace readerNamespace
         unsigned readUnsigned(const std::string& prompt = "");
         std::string readLine(const std::string& prompt = "");
 
+        std::vector<int> readIntVectorFromLine(const std::string& prompt = "");
         std::vector<double> readDoubleVectorFromLine(const std::string& prompt = "");
         std::vector<std::string> readStringVectorFromLine(const std::string& prompt = "");
 

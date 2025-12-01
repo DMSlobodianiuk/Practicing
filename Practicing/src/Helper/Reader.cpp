@@ -107,6 +107,16 @@ namespace readerNamespace
         return tokens;
     }
 
+    std::vector<int> InputReader::readIntVectorFromLine(const std::string& prompt)
+    {
+        std::string s = readLine(prompt);
+        auto tokens = splitTokens(s);
+        std::vector<int> out;
+        out.reserve(tokens.size());
+        for (auto& t : tokens) out.push_back(parseNumber<int>(t));
+        return out;
+    }
+
     std::vector<double> InputReader::readDoubleVectorFromLine(const std::string& prompt)
     {
         std::string s = readLine(prompt);
