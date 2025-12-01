@@ -5,7 +5,7 @@
 #include <functional>
 #include <stdexcept>
 
-namespace helper
+namespace readerNamespace
 {
 
     class InputError : public std::runtime_error
