@@ -51,6 +51,12 @@
     <Filter Include="src\Tasks\CodewarsTasks">
       <UniqueIdentifier>{a4cc0783-3cd6-4704-b7ea-60b267abdf98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Tasks\CodewarsTasks\EightLevel">
+      <UniqueIdentifier>{5387836a-5fa8-4e09-9137-bdc2f60519d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Tasks\CodewarsTasks\EightLevel">
+      <UniqueIdentifier>{f5959930-8636-4183-85bd-e963dc997eb4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -83,11 +89,35 @@
     <ClCompile Include="src\Tasks\ITask.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Tasks\CodewarsTasks\TaskLitres.cpp">
-      <Filter>src\Tasks\CodewarsTasks</Filter>
-    </ClCompile>
     <ClCompile Include="src\Helper\Reader.cpp">
       <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskAmIWilson.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskConverter.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskCountPositivesSumNegatives.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskDivisibleBy.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskGetVolumeOfCuboid.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskLitres.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.cpp">
+      <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,11 +151,35 @@
     <ClInclude Include="include\Tasks\ITask.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Tasks\CodewarsTasks\TaskLitres.h">
-      <Filter>include\Tasks\CodewarsTasks</Filter>
-    </ClInclude>
     <ClInclude Include="include\Helper\Reader.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskAmIWilson.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskConverter.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskCountPositivesSumNegatives.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskDivisibleBy.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskGetVolumeOfCuboid.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskLitres.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
