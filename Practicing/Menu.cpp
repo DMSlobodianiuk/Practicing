@@ -1,13 +1,13 @@
 #include "Menu.h"
 #include <iostream>
+#include <cctype>
+#include <string>
 
-using namespace std;
-
-Menu::Menu(){ }
+Menu::Menu() {}
 
 void Menu::run()
 {
-	
+
 	welcome();
 
 	bool running = true;
@@ -16,23 +16,23 @@ void Menu::run()
 	{
 		mainMenu();
 		select();
+
 		switch (menuNumber)
 		{
 		case 1:
-			cout << "You selected 'Show Tasks'"<<endl;
+			std::cout << "You selected 'Show Tasks'\n";
 			break;
 		case 2:
-			cout << "You selected 'Select Task'" << endl;
+			std::cout << "You selected 'Select Task'\n";
 			break;
 		case 3:
-			cout << "You selected 'Show and Select Tasks'" << endl;
+			std::cout << "You selected 'Show and Select Tasks'\n";
 			break;
 		case 4:
-			cout << "You selected to exit" << endl;
+			std::cout << "You selected to exit\n";
 			running = false;
 			break;
 		default:
-			cout << "Please enter valid number" << endl;
 			select();
 			break;
 		}
@@ -42,19 +42,54 @@ void Menu::run()
 
 void Menu::welcome()
 {
-	cout << "Welcome to the main menu, enter following number to contnue" << endl;
-
+	std::cout << "Welcome to the main menu, enter following number to contnue" << std::endl;
 }
 
 void Menu::mainMenu()
 {
-	cout<< "1. Show Tasks\n"
+	std::cout << "1. Show Tasks\n"
 		"2. Select Task\n"
 		"3. Show and Select Tasks\n"
-		"4. Exit" << endl;
+		"4. Exit" << std::endl;
 }
 
-void Menu::select()
+bool Menu::select()
 {
-	cout << "Enter number: "; cin >> Menu::menuNumber;
+	std::string line;
+
+	while (true)
+	{
+		std::cout << "Enter number: "; std::cin;
+		if (!std::getline(std::cin, line))
+			return false;
+
+		try
+		{
+			size_t idx = 0;
+			int value = std::stoi(line, &idx);
+
+			bool ok = true;
+
+			for (size_t i = idx; i < line.size(); ++i)
+			{
+				if (!std::isspace(static_cast<unsigned char>(line[i])))
+				{
+					ok = false;
+					break;
+				}
+			}
+
+			if (!ok || value > 5)
+			{
+				std::cout << "Invalid input. Please enter a number in range 1-4.\n";
+				continue;
+			}
+			menuNumber = value;
+			return true;
+		}
+		catch (...)
+		{
+			std::cout << "Invalud input. Please enter a number.\n";
+		}
+	}
 }
