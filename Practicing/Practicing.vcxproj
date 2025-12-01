@@ -133,7 +133,15 @@
     <ClCompile Include="src\Levels\Five.cpp" />
     <ClCompile Include="src\Levels\Seven.cpp" />
     <ClCompile Include="src\Levels\Six.cpp" />
-    <ClCompile Include="src\Tasks\CodewarsTasks\TaskLitres.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskAmIWilson.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskConverter.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskCountPositivesSumNegatives.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskDivisibleBy.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskGetVolumeOfCuboid.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskLitres.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.cpp" />
     <ClCompile Include="src\Tasks\ITask.cpp" />
     <ClCompile Include="src\Tasks\TasksList.cpp" />
   </ItemGroup>
@@ -146,7 +154,15 @@
     <ClInclude Include="include\Levels\Five.h" />
     <ClInclude Include="include\Levels\Seven.h" />
     <ClInclude Include="include\Levels\Six.h" />
-    <ClInclude Include="include\Tasks\CodewarsTasks\TaskLitres.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskAmIWilson.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskConverter.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskCountPositivesSumNegatives.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskDivisibleBy.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskGetVolumeOfCuboid.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskLitres.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.h" />
     <ClInclude Include="include\Tasks\ITask.h" />
     <ClInclude Include="include\Tasks\TasksList.h" />
     <ClInclude Include="Menu.h" />
