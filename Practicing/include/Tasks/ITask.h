@@ -6,10 +6,10 @@
 class ITask
 {
 public:
-	ITask();
+	virtual ~ITask() = default;
+    virtual int run() = 0;
 
-	virtual void getName() const = 0;
-
-	virtual void execute() = 0;
+    virtual const std::string& getName() const noexcept = 0;
+    virtual const std::string& getDescription() const noexcept = 0;
 
 };
