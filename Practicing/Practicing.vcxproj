@@ -124,16 +124,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="include\Tasks\CodewarsTassk\TaskLitres.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Reader.cpp" />
     <ClCompile Include="src\Helper\HelperFunctions.cpp" />
     <ClCompile Include="src\Kata\Kata.cpp" />
     <ClCompile Include="src\Levels\Eight.cpp" />
     <ClCompile Include="src\Levels\Five.cpp" />
     <ClCompile Include="src\Levels\Seven.cpp" />
     <ClCompile Include="src\Levels\Six.cpp" />
-    <ClCompile Include="src\Tasks\Task.cpp" />
+    <ClCompile Include="src\Tasks\ITask.cpp" />
     <ClCompile Include="src\Tasks\TasksList.cpp" />
+    <ClCompile Include="TaskLitres.cpp" />
+    <ClCompile Include="TaskLitres.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h" />
@@ -143,9 +147,10 @@
     <ClInclude Include="include\Levels\Five.h" />
     <ClInclude Include="include\Levels\Seven.h" />
     <ClInclude Include="include\Levels\Six.h" />
-    <ClInclude Include="include\Tasks\Task.h" />
+    <ClInclude Include="include\Tasks\ITask.h" />
     <ClInclude Include="include\Tasks\TasksList.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Reader.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="story.txt" />
