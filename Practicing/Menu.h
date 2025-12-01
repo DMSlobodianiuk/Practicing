@@ -11,7 +11,7 @@ public:
 
 	void welcome();
 
-	void select();
+	bool select();
 
 	void mainMenu();
 };

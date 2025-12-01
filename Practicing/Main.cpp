@@ -9,11 +9,9 @@ using namespace std;
 int main()
 {	
 
-	double testValue = 10;
+	Menu menu;
 
-	Task task("litres", "test", [=]() {
-		std::cout << eight::litres(testValue) << std::endl;
-		});
+	menu.run();
 	
 	return 0;
 }
