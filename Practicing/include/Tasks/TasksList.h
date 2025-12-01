@@ -1,14 +1,14 @@
 #pragma once
 #include <vector>
-#include "Task.h"
+#include "ITask.h"
 
 class TasksList
 {
 public:
 	TasksList();
 
-	std::vector<Task> tasks;
-	std::vector<Task> tasksTemp;
+	std::vector<ITask> tasks;
+	std::vector<ITask> tasksTemp;
 
 	void fillList();
 

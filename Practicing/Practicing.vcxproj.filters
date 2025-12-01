@@ -45,6 +45,12 @@
     <Filter Include="src\Menu">
       <UniqueIdentifier>{ca12e9c2-3ab0-4819-8909-19540f5fe460}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\Tasks\CodewarsTasks">
+      <UniqueIdentifier>{48c0b6a7-2ca2-4785-b59c-5296856c8872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tasks\CodewarsTasks">
+      <UniqueIdentifier>{a4cc0783-3cd6-4704-b7ea-60b267abdf98}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -68,14 +74,20 @@
     <ClCompile Include="src\Levels\Six.cpp">
       <Filter>src\Levels</Filter>
     </ClCompile>
-    <ClCompile Include="src\Tasks\Task.cpp">
-      <Filter>src\Tasks</Filter>
-    </ClCompile>
     <ClCompile Include="Menu.cpp">
       <Filter>src\Menu</Filter>
     </ClCompile>
     <ClCompile Include="src\Tasks\TasksList.cpp">
       <Filter>src\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\ITask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tasks\CodewarsTasks\TaskLitres.cpp">
+      <Filter>src\Tasks\CodewarsTasks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -100,14 +112,20 @@
     <ClInclude Include="include\Levels\Six.h">
       <Filter>include\Levels</Filter>
     </ClInclude>
-    <ClInclude Include="include\Tasks\Task.h">
-      <Filter>include\Tasks</Filter>
-    </ClInclude>
     <ClInclude Include="Menu.h">
       <Filter>include\Menu</Filter>
     </ClInclude>
     <ClInclude Include="include\Tasks\TasksList.h">
       <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\ITask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\TaskLitres.h">
+      <Filter>include\Tasks\CodewarsTasks</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
