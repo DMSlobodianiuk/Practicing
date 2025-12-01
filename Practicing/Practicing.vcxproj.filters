@@ -80,14 +80,14 @@
     <ClCompile Include="src\Tasks\TasksList.cpp">
       <Filter>src\Tasks</Filter>
     </ClCompile>
-    <ClCompile Include="Reader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\Tasks\ITask.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Tasks\CodewarsTasks\TaskLitres.cpp">
       <Filter>src\Tasks\CodewarsTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Helper\Reader.cpp">
+      <Filter>src\Helper</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,11 +121,11 @@
     <ClInclude Include="include\Tasks\ITask.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Reader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Tasks\CodewarsTasks\TaskLitres.h">
       <Filter>include\Tasks\CodewarsTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Helper\Reader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

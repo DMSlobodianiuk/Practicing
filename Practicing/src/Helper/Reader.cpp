@@ -1,10 +1,11 @@
 #include "Helper/Reader.h"
 #include <sstream>
+#include <iostream>
 #include <limits>
 #include <cctype>
 #include <algorithm>
 
-namespace Helper
+namespace readerNamespace
 {
 
     InputReader::InputReader(std::istream& in, std::ostream& out) noexcept

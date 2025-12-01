@@ -12,14 +12,14 @@ int TaskLitres::run()
 {
     try
     {
-        helper::InputReader reader;
+        readerNamespace::InputReader reader;
         double t = reader.readDouble("Enter time (hours, double): ");
 
         int result = eight::litres(t);
         std::cout << "Result: " << result << std::endl;
         return 0;
     }
-    catch (const helper::InputError& ie)
+    catch (const readerNamespace::InputError& ie)
     {
         std::cout << "Input error: " << ie.what() << std::endl;
         return 1;
