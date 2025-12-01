@@ -42,7 +42,7 @@ void Menu::run()
 
 void Menu::welcome()
 {
-	std::cout << "Welcome to the main menu, enter following number to contnue" << std::endl;
+	std::cout << "Welcome to the main menu, enter following number to contnue:\n";
 }
 
 void Menu::mainMenu()
@@ -50,7 +50,7 @@ void Menu::mainMenu()
 	std::cout << "1. Show Tasks\n"
 		"2. Select Task\n"
 		"3. Show and Select Tasks\n"
-		"4. Exit" << std::endl;
+		"4. Exit\n";
 }
 
 bool Menu::select()
