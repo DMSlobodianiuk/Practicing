@@ -139,7 +139,7 @@
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskDivisibleBy.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskGetVolumeOfCuboid.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskLitres.cpp" />
-    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.cpp" />
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSquareRoot.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.cpp" />
     <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskGap.cpp" />
@@ -172,7 +172,7 @@
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskDivisibleBy.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskGetVolumeOfCuboid.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskLitres.h" />
-    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSquareRoot.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskGap.h" />

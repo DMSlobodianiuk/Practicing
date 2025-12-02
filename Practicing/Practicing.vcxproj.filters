@@ -104,9 +104,6 @@
     <ClCompile Include="src\Tasks\TasksList.cpp">
       <Filter>src\Tasks</Filter>
     </ClCompile>
-    <ClCompile Include="src\Tasks\ITask.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\Helper\Reader.cpp">
       <Filter>src\Helper</Filter>
     </ClCompile>
@@ -128,7 +125,7 @@
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskLitres.cpp">
       <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClCompile>
-    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.cpp">
+    <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSquareRoot.cpp">
       <Filter>src\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClCompile>
     <ClCompile Include="src\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.cpp">
@@ -173,6 +170,9 @@
     <ClCompile Include="src\Tasks\CodewarsTasks\FiveLevel\TaskZeros.cpp">
       <Filter>src\Tasks\CodewarsTasks\FiveLevel</Filter>
     </ClCompile>
+    <ClCompile Include="src\Tasks\ITask.cpp">
+      <Filter>src\Tasks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -202,12 +202,6 @@
     <ClInclude Include="include\Tasks\TasksList.h">
       <Filter>include\Tasks</Filter>
     </ClInclude>
-    <ClInclude Include="include\Tasks\ITask.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Helper\Reader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskAmIWilson.h">
       <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClInclude>
@@ -224,9 +218,6 @@
       <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClInclude>
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskLitres.h">
-      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSqaureRoot.h">
       <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
     </ClInclude>
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.h">
@@ -270,6 +261,15 @@
     </ClInclude>
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskZeros.h">
       <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\ITask.h">
+      <Filter>include\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSquareRoot.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Helper\Reader.h">
+      <Filter>include\Helper</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
