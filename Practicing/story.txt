@@ -94,3 +94,9 @@ Tasks:
 ITask, Reader, EightLevel and final structure were created and implemented 
 
 Were realised
+
+02.12.25
+Tasks:
+
+
+Were realised
