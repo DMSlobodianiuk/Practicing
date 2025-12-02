@@ -271,6 +271,18 @@
     <ClInclude Include="include\Helper\Reader.h">
       <Filter>include\Helper</Filter>
     </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\EightLevelTasks.h">
+      <Filter>include\Tasks\CodewarsTasks\EightLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\SixLevelTasks.h">
+      <Filter>include\Tasks\CodewarsTasks\SixLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\SevenLevelTasks.h">
+      <Filter>include\Tasks\CodewarsTasks\SevenLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\FiveLevelTasks.h">
+      <Filter>include\Tasks\CodewarsTasks\FiveLevel</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="story.txt" />
