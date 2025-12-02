@@ -166,6 +166,7 @@
     <ClInclude Include="include\Levels\Five.h" />
     <ClInclude Include="include\Levels\Seven.h" />
     <ClInclude Include="include\Levels\Six.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\EightLevelTasks.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskAmIWilson.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskConverter.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskCountPositivesSumNegatives.h" />
@@ -175,13 +176,16 @@
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskSquareOrSquareRoot.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskStringToNumber.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\EightLevel\TaskTwoDecimalPlaces.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\FiveLevelTasks.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskGap.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskPerimeter.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskSmallest.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskSolve.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\FiveLevel\TaskZeros.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\SevenLevelTasks.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\TaskNewAvg.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\SevenLevel\TaskSeriesSum.h" />
+    <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\SixLevelTasks.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskF.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskFindNb.h" />
     <ClInclude Include="include\Tasks\CodewarsTasks\SixLevel\TaskMean.h" />

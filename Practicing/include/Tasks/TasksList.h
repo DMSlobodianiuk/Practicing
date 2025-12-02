@@ -1,16 +1,26 @@
 #pragma once
 #include <vector>
+#include <memory>
 #include "ITask.h"
+#include "Tasks/CodewarsTasks/EightLevel/EightLevelTasks.h"
 
 class TasksList
 {
 public:
 	TasksList();
 
-	std::vector<ITask> tasks;
-	std::vector<ITask> tasksTemp;
-
 	void fillList();
+	
+	size_t size() const;
 
-	void clearList();
+	ITask* get(size_t index);
+
+	void runTask(size_t index);
+
+	const std::string& getName(size_t index);
+
+	const std::string& getDescription(size_t index);
+
+private:
+	std::vector<std::unique_ptr<ITask>> tasks;
 };
