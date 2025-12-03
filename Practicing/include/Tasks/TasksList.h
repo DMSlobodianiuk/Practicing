@@ -10,6 +10,8 @@ public:
 	TasksList();
 
 	void fillList();
+
+	void showTasks();
 	
 	size_t size() const;
 
