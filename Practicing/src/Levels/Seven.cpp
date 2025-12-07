@@ -17,7 +17,6 @@ namespace seven
 		if (arr.size() == 0)
 			return navg;
 
-
 		if (navg < 0)
 			throw std::logic_error("");
 
