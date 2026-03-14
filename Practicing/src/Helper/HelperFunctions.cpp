@@ -38,8 +38,9 @@ namespace helper
 			return "";
 
 		size_t endPos = input.find("\n", cityPos);
-		if (endPos == std::string::npos)
-			endPos = input.size();
+		/*if (endPos == std::string::npos)
+			endPos = input.size();*/
+		(endPos == std::string::npos) ? endPos = input.size() : 0;
 
 		std::string substr = input.substr(cityPos + town.length() + 1, endPos - (cityPos + town.length()));
 
@@ -72,20 +73,26 @@ namespace helper
 
 	bool isPrime(int n)
 	{
-		if (n < 2) return false;
-		if (n == 2 || n == 3) return true;
-		if (n % 2 == 0 || n % 3 == 0) return false;
+		//if (n < 2) return false;
+		//if (n == 2 || n == 3) return true;
+		//if (n % 2 == 0 || n % 3 == 0) return false;
 
+		(n < 2) ? false : 0;
+		(n == 2 || n == 3)? true: 0;
+		(n % 2 == 0 || n % 3 == 0) ? false : 0;
+		
 		for (int i = 5; i * i <= n; i += 6)
-			if (n % i == 0 || n % (i + 2) == 0)
-				return false;
+			//if (n % i == 0 || n % (i + 2) == 0)
+				//return false;
+			(n % i == 0 || n % (i + 2) == 0) ? false : 0;
 		return true;
 	}
 
 	long fiboSum(int n)
 	{
-		if (n == 0)
-			return 1;
+		//if (n == 0)
+		//	return 1;
+		(n == 0) ? 1 : 0;
 		long f = 0;
 		long s = 1;
 		long t;
