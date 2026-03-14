@@ -145,7 +145,6 @@ namespace readerNamespace
         catch (...) { return false; }
     }
 
-
     template<typename T>
     T InputReader::parseNumber(const std::string& s)
     {

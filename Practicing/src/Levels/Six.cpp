@@ -123,5 +123,4 @@ namespace six
 
 		return res.substr(0, res.length() - 3);
 	}
-
 }

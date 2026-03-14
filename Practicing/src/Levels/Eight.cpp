@@ -36,10 +36,11 @@ namespace eight
 		for (int x : array)
 		{
 			double temp = sqrt(x);
-			if (std::floor(temp) == temp)
-				res.push_back(temp);
-			else
-				res.push_back(x * x);
+			//if (std::floor(temp) == temp)
+			//	res.push_back(temp);
+			//else
+			//	res.push_back(x * x);
+			(std::floor(temp) == temp) ? res.push_back(temp) : res.push_back(x * x);
 		}
 
 		return res;
@@ -57,10 +58,11 @@ namespace eight
 
 		for (auto it = input.begin(); it != input.end(); ++it)
 		{
-			if (*it > 0)
+			/*if (*it > 0)
 				count += 1;
 			else
-				sum += *it;
+				sum += *it;*/
+			(*it > 0) ? count += 1 : sum += *it;
 		}
 
 		std::cout << "count: " << count << "\nsum: " << sum << std::endl;
@@ -77,10 +79,14 @@ namespace eight
 
 	bool amIWilson(unsigned n)
 	{
-		if (n == 5 or n == 13 or n == 563)
-			return true;
-		else
-			return false;
+		bool res{ false };
+		//if (n == 5 or n == 13 or n == 563)
+		//	return true;
+		//else
+		//	return false;
+		(n == 5 || n == 13 || n == 563) ? res = true : 0;
+
+		return res;
 	}
 
 	double twoDecimalPlaces(double n)
@@ -95,7 +101,6 @@ namespace eight
 		for (auto it = numbers.begin(); it != numbers.end(); ++it)
 			if (*it % divisor == 0)
 				res.push_back(*it);
-
 		return res;
 	}
 
