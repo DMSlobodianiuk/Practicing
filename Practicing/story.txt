@@ -111,3 +111,5 @@ README file
 
 Were realised
 
+30.03.26
+v1.0.0 release

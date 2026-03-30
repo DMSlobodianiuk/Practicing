@@ -16,7 +16,7 @@ public:
 	size_t size() const;
 
 	ITask* get(size_t index);
-
+	
 	void runTask(size_t index);
 
 	const std::string& getName(size_t index);

@@ -103,5 +103,4 @@ namespace eight
 				res.push_back(*it);
 		return res;
 	}
-
 }

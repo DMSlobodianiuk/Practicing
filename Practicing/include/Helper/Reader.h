@@ -47,5 +47,4 @@ namespace readerNamespace
         template<typename T>
         T parseNumber(const std::string& s);
     };
-
 }

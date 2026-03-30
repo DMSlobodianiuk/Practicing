@@ -105,5 +105,4 @@ namespace five {
 
 		return res;
 	}
-
 }
