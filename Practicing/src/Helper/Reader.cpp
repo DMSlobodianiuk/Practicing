@@ -145,7 +145,6 @@ namespace readerNamespace
         catch (...) { return false; }
     }
 
-
     template<typename T>
     T InputReader::parseNumber(const std::string& s)
     {
@@ -164,10 +163,9 @@ namespace readerNamespace
         }
         return value;
     }
-  template double InputReader::parseNumber<double>(const std::string&);
+    template double InputReader::parseNumber<double>(const std::string&);
     template int InputReader::parseNumber<int>(const std::string&);
     template long InputReader::parseNumber<long>(const std::string&);
     template long long InputReader::parseNumber<long long>(const std::string&);
     template unsigned InputReader::parseNumber<unsigned>(const std::string&);
-
 }

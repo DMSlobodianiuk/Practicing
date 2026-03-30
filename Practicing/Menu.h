@@ -32,4 +32,3 @@ public:
 
 	void runTask(size_t index);
 };
-

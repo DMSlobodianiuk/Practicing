@@ -11,6 +11,7 @@ Menu::Menu()
 
 void Menu::run()
 {
+	std::cout << std::boolalpha;
 
 	welcome();
 
@@ -34,6 +35,10 @@ void Menu::run()
 			taskMenu();
 			break;
 		case 3:
+		case 'q':
+		case 'Q':
+		case 'Quit':
+		case 'quie':
 			separator();
 			std::cout << "You selected to exit\n";
 			running = false;
@@ -43,12 +48,11 @@ void Menu::run()
 			break;
 		}
 	}
-
 }
 
 void Menu::separator()
 {
-	std::cout << "\n---------------------------------------------\n\n";
+	std::cout << "\n---------------------------------------------\n";
 }
 
 void Menu::welcome()

@@ -98,5 +98,4 @@ namespace eight
 
 		return res;
 	}
-
 }

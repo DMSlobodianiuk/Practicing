@@ -48,5 +48,4 @@ namespace seven
 
 		return oss.str();
 	}
-
 }

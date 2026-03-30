@@ -100,5 +100,4 @@ namespace helper
 		}
 		return sum;
 	}
-
 }
